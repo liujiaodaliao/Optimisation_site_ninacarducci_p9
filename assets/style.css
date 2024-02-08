@@ -6,6 +6,16 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+h2 {
+	font-size: 1.75rem ;
+	/*add font size 28px  before h3*8个 now h2 其中有两个已经自定义不受影响，了其余6个通用默认字体   */
+}
+
+h3 {
+	font-size: 1.5rem ; /*add font 24px size before h4*3个 now h3   */
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -84,6 +94,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem !important; /*add font size 16px (before h6) now h3 font size */
 }
 #about-me p {
 	width: 80%;
@@ -261,7 +272,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h3, #about-me p {
 		/* modifier le nom balise h6 */
 		width: 100%;
 	}
