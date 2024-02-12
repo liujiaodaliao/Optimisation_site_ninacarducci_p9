@@ -115,6 +115,7 @@ h3 {
 	color: #000;    /* ameliorer la couleur contrast */
 	background-color: #BEB45A;
 	border-radius:0 ;
+	cursor: pointer;
 }
 .nav-pills .nav-link {
 	color: #000
@@ -135,6 +136,7 @@ h3 {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
